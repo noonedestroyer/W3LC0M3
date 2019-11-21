@@ -4,9 +4,9 @@
 
 <h1>My first PHP page</h1>
 
-<input type="text" id="name">
+<input type="text" id="name" name="Name">
 <br>
-<input type="text" id="school">
+<input type="text" id="school" name="ID">
 <br>
 <input type="button" value="ok"	onclick="display()">
 

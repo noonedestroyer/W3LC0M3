@@ -7,6 +7,7 @@
 <?php
 echo "Hello World!";
 ?>
+<a href="view.php">Profile</a>
 
 </body>
 </html>

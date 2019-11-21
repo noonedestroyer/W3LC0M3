@@ -12,16 +12,14 @@
 <input type="button" value="ok"	onclick="display()">
 
 <script type="text/javascript">
-	function checkInput(){
+
+	function display(){
 		var name = document.getElementById('name').value;
+		var school = document.getElementById('school').value;
 		if (name.length <5){
 			alert('Name must be more than 5 characters');
 		}
-	}
-	function display(){
-		checkInput();
-		var name = document.getElementById('name').value;
-		var school = document.getElementById('school').value;
+		else
 		alert('Welcome ' + name + ' from school ' + school);
 	}
 </script>

@@ -3,12 +3,11 @@
 <body>
 
 <h1>My first PHP page</h1>
-<p>Name:</p>
-<input type="text" id="name">
-<br>
-<p>School:</p>
-<input type="text" id="school">
-<br>
+<p>Name: <input type="text" id="name"></p>
+
+<p>School: <input type="text" id="school"></p>
+
+
 <input type="button" value="ok"	onclick="display()">
 
 <script type="text/javascript">

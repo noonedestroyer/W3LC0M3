@@ -26,14 +26,18 @@
         $stmt->execute();
         $resultSet = $stmt->fetchAll();
     ?>
-    <ul>
+    <table>
         <?php
             foreach ($resultSet as $row) {
-                echo "<li>" .
-                    $row["name"] . '--'. $row["price"]
-                . "</li>";
+            	?>
+            	<tr>
+            		<?php echo "<td>" . $row["name"] . "</td>"; ?>
+            		<?php echo "<td>" . $row["price"] . "</td>"; ?>
+            	</tr>
+                
+		<?php
             }
         ?>
-    </ul>
+    </table>
 </body>
 </html>

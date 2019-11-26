@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
+<style>
+	table, tr, td {
+		border: 1px solid black;
+	}
+</style>
+
 <body>
     <?php
         //Refer to database 

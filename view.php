@@ -38,9 +38,9 @@
             foreach ($resultSet as $row) {
             	?>
             	<tr>
-            		<?php echo "<td>" . '<a href="delete.php?id=' . $row["pid"] . '">Delete</a>' . "</td>"; ?>
             		<?php echo "<td>" . $row["name"] . "</td>"; ?>
             		<?php echo "<td>" . $row["price"] . "</td>"; ?>
+            		<?php echo "<td>" . '<a href="delete.php?id=' . $row["pid"] . '">Delete</a>' . "</td>"; ?>
             	</tr>
                 
 		<?php

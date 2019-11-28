@@ -38,6 +38,7 @@
             foreach ($resultSet as $row) {
             	?>
             	<tr>
+            		<td> <?php echo $row["name"]; ?> </td>
             		<?php echo "<td>" . $row["name"] . "</td>"; ?>
             		<?php echo "<td>" . $row["price"] . "</td>"; ?>
             		<?php echo "<td>" . '<a href="delete.php?id=' . $row["pid"] . '">Delete</a>' . "</td>"; ?>

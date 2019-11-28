@@ -41,7 +41,7 @@
             		<td> <?php echo $row["pid"]; ?> </td>
             		<td> <?php echo $row["name"]; ?> </td>
             		<td> <?php echo $row["price"]; ?> </td>
-            		<td> <button type=button onclick="location.href='delete.php?id= <?php echo $row["pid"] ?>'"></button> </td>
+            		<td> <button type=button onclick="location.href='delete.php?id= <?php echo $row["pid"] ?>'"> Delete!</button> </td>
             	</tr>
                 
 		<?php
